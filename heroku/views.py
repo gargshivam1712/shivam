@@ -16,3 +16,6 @@ def submitlogin(request):
         email=request.POST['email']
         password=request.POST['password']
     return HttpResponse("Submit Successfully...")
+
+def contact(request):
+    return render(request,'contact.html')
