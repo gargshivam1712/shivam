@@ -19,3 +19,7 @@ def submitlogin(request):
 
 def contact(request):
     return render(request,'contact.html')
+
+def home(request):
+    return(request,'home.html')
+

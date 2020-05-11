@@ -7,5 +7,6 @@ urlpatterns = [
     path('login/',views.login),
     path('submitlogin',views.submitlogin),
     path('contact/',views.contact),
+    path('home/',views.home),
 ]
 urlpatterns+=staticfiles_urlpatterns()
